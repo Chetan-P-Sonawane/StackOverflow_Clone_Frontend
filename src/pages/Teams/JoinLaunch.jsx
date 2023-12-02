@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useCallback, useState } from 'react';
 import AgoraRTC from 'agora-rtc-sdk-ng';
 
 const APP_ID = "341516a4f8314ee2a22be250c4276197";
-const TOKEN = "007eJxTYOjqqhM9aBn3NXjn0UD9OI/iOV3WUTvLvr+a1LT56akU9nkKDMYmhqaGZokmaRbGhiapqUaJRkZJqUamBskmRuZmhpbmO3MyUxsCGRnqPy9gYWSAQBBfkCG4JDE5278stSgtJ788tDi1iIEBAE7lJYk=";
+const TOKEN = "007eJxTYPD9Y777hrtRmplQ9KnHn+T8Es4qdQakJ7yvfXj6H1tRwA0FBmMTQ1NDs0STNAtjQ5PUVKNEI6OkVCNTg2QTI3MzQ0tz9glZqQ2BjAxOx7VZGRkgEMQXZAguSUzO9i9LLUrLyS8PLU4tYmAAAPQ8I7w=";
 const CHANNEL = "StackOverflowUser";
 
 let client = AgoraRTC.createClient({ mode: 'rtc', codec: 'vp8' });
