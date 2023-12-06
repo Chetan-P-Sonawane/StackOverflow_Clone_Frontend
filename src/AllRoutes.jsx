@@ -10,7 +10,6 @@ import Tags from './pages/Tags/Tags'
 import Users from './pages/Users/Users'
 import UserProfile from './pages/UserProfile/UserProfile'
 import VideoLaunchpad from './pages/Teams/VideoLaunch'
-import VideoContainer from './pages/VideoPlayer/VideoContainer'
 
 const AllRoutes = () => {
   return (
@@ -23,7 +22,6 @@ const AllRoutes = () => {
         <Route path="/Tags" element={<Tags />} />
         <Route path="/Users" element={<Users />} />
         <Route path="/videoLaunchpad" element={<VideoLaunchpad />} />
-        <Route path="/VideoPlayer" element={<VideoContainer />} />
         <Route path="/Users/:id" element={<UserProfile />} />
         
     </Routes>

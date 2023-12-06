@@ -40,9 +40,7 @@ const LeftSidebar = () => {
           <p>Video Launchpad</p>
         </NavLink>
 
-        <NavLink to='/VideoPlayer' className='side-nav-links' activeclassname='active' >
-          <p>Video Player</p>
-        </NavLink>
+       
 
         
       
