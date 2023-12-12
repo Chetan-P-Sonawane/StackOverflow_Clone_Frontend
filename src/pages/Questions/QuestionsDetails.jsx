@@ -23,7 +23,7 @@ const QuestionsDetails = () => {
     const dispatch = useDispatch()
     const User = useSelector((state) => (state.currentUserReducer))
     const location = useLocation()
-    const url = 'http://localhost:5000'
+    const url = 'https://stackoverflow-backend-j1oq.onrender.com'
 
     const handlePostAns = (e, answerLength) => {
         e.preventDefault()
