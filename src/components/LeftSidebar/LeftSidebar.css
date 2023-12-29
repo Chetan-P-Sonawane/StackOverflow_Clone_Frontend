@@ -67,7 +67,6 @@
   @media screen and (min-width: 760px) {
     .left-sidebar {
       display: contents;
-      
       z-index: 10;
     }
   }

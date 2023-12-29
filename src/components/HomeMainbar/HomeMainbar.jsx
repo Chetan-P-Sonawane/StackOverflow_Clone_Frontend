@@ -33,7 +33,10 @@ const HomeMainbar = () => {
     <div >
         {
             questionsList.data === null ? 
-            <h1>Loading... </h1> :
+            <p>Loading...<br/>Note:- The Backend is hosted on a paid platform so it is not possible to keep it online 24/7, please feel free to mail on chetanps131@gmail.com and the
+                the server will be online for next 24 hours from the time of my response.
+            </p>
+             :
             <>
                 <p>{questionsList.data.length} questions</p>
                 <QuestionList questionsList={questionsList.data} />
